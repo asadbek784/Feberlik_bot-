@@ -1,0 +1,20 @@
+telegram_bot/
+├── bot.py              # Asosiy bot fayli
+├── config.py           # Sozlamalar
+├── database.py         # Ma'lumotlar bazasi
+├── handlers/
+│   ├── __init__.py
+│   ├── start.py        # Start komandasi
+│   ├── admin.py        # Admin panel
+│   ├── user.py         # Foydalanuvchi handlerlari
+│   ├── auto_reply.py   # Avtomatik javoblar
+│   └── broadcast.py    # Xabar tarqatish
+├── keyboards/
+│   ├── __init__.py
+│   ├── inline_kb.py    # Inline tugmalar
+│   └── reply_kb.py     # Reply tugmalar
+├── utils/
+│   ├── __init__.py
+│   ├── helpers.py      # Yordamchi funksiyalar
+│   └── decorators.py   # Dekoratorlar
+└── requirements.txt
